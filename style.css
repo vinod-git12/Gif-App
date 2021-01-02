@@ -5,7 +5,8 @@ body {
   }
 
 header {
-  margin-top: 0px;
+  margin: 0 auto;
+  width: 100%;
   }
 
 .title {
@@ -17,24 +18,44 @@ header {
   font-family: Arial, sans-serif;
   font-size: 60px;
   margin-top: 0px;
-  height: 100px;
+  height: 80px;
   }
 
-  .label1, .label2 {
-    margin: 10px;
+  .label1 {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 200;
   }
+  .label2 {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
 
   .choice {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 200;
     border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .choose {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 40px;
   }
 
   img {
@@ -46,7 +67,7 @@ header {
 }
 
 .form {
-  margin: 50px 50px;
+  margin-top: 0px;
   }
 
   footer {
@@ -55,7 +76,7 @@ header {
     position: fixed;
     width: 100%;
     bottom: 0;
-    padding: 2.2rem;
+    padding: 25px;
     background-color: #111;
   }
 
