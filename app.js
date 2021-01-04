@@ -27,7 +27,7 @@ const renderImages = (results) => {
     let newImg1 = document.createElement("section")
     newDocument.src = results[i].images.downsized.url
     console.log(newDocument)
-    document.querySelector(".results").insertAdjacentElement("afterbegin", newDocument)
+    document.querySelector("#results").insertAdjacentElement("afterbegin", newDocument)
     
   }
   
