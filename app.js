@@ -22,7 +22,7 @@ const getData = () => {
 
 
 const renderImages = (results) => {
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 3; i++) {
     let newDocument = document.createElement("img")
     let newImg1 = document.createElement("section")
     newDocument.src = results[i].images.downsized.url
@@ -32,7 +32,6 @@ const renderImages = (results) => {
   }
   
 }
-
 
 getData()
 
