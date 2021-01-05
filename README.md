@@ -5,32 +5,46 @@
 Gif-App
 
 ## Project Description
-To Get 
+To Get different Gifs basis on "Search & Rating"
 
 
 ## API and Data Sample
-News-App is powered by [News API](https://developers.giphy.com/)
+Gif-App is powered by [Giphy API](https://developers.giphy.com/)
 Code Snippet: 
 ```javascript
- {
-  "status": "ok",
-  "totalResults": 70,
-  "articles": [
   {
-   "source": {
-   "id": "fox-news",
-   "name": "Fox News"
-                           },
-  "author": "Associated Press",
-  "title": "Concern among Muslims over halal status of COVID-19 vaccine - Fox News",
-  "description": "As companies race to develop a COVID-19 vaccine and countries scramble to secure doses, questions about the use of pork products —                   banned by some religious groups — has raised concerns about the possibility of disrupted immunization campaigns.",
-  "url": "https://www.foxnews.com/world/concern-among-muslims-over-halal-status-of-covid-19-vaccine",
-  "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/12/AP20351314311045.jpg",
-  "publishedAt": "2020-12-21T02:56:10Z",
-  "content": "JAKARTA, Indonesia In October, Indonesian diplomats and Muslim clerics stepped off a plane in China. While the diplomats were there to                   finalize deals to ensure millions of doses reached Indonesian ci… [+7528 chars]"
-           },
-```
-
+    "data": [
+        {
+            "type": "gif",
+            "id": "xT5LMIXaGWfynKKZz2",
+            "url": "https://giphy.com/gifs/season-11-the-simpsons-11x22-xT5LMIXaGWfynKKZz2",
+            "slug": "season-11-the-simpsons-11x22-xT5LMIXaGWfynKKZz2",
+            "bitly_gif_url": "http://gph.is/1VrSzjJ",
+            "bitly_url": "http://gph.is/1VrSzjJ",
+            "embed_url": "https://giphy.com/embed/xT5LMIXaGWfynKKZz2",
+            "username": "",
+            "source": "http://www.simpsonsworld.com",
+            "title": "Season 11 Episode 22 GIF by The Simpsons",
+            "rating": "g",
+            "content_url": "",
+            "source_tld": "www.simpsonsworld.com",
+            "source_post_url": "http://www.simpsonsworld.com",
+            "is_sticker": 0,
+            "import_datetime": "2016-04-23 04:36:11",
+            "trending_datetime": "0000-00-00 00:00:00",
+            "images": {
+                "original": {
+                    "height": "362",
+                    "width": "480",
+                    "size": "1431086",
+                    "url": "https://media1.giphy.com/media/xT5LMIXaGWfynKKZz2/giphy.gif?cid=def9e721og1vqpc2j8le2jfqzrmvelfwo7xi2otkbwma8gni&rid=giphy.gif",
+                    "mp4_size": "402921",
+                    "mp4": "https://media1.giphy.com/media/xT5LMIXaGWfynKKZz2/giphy.mp4?cid=def9e721og1vqpc2j8le2jfqzrmvelfwo7xi2otkbwma8gni&rid=giphy.mp4",
+                    "webp_size": "759598",
+                    "webp": "https://media1.giphy.com/media/xT5LMIXaGWfynKKZz2/giphy.webp?cid=def9e721og1vqpc2j8le2jfqzrmvelfwo7xi2otkbwma8gni&rid=giphy.webp",
+                    "frames": "44",
+                    "hash": "5e29af5462c4f19e8ec9582436af0af6"
+                }
 ## Wireframes
 [Wireframe Mock-up](https://app.uxpin.com/edit/8769511/#?id_page=135139409)
 

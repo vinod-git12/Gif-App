@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(238, 13, 13);
   font-family: Arial, sans-serif;
   font-size: 60px;
   margin-top: 0px;
@@ -22,7 +22,7 @@ header {
   }
 
   .label1 {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* display: flex;
     justify-content: center; */
     font-size: 2rem;
@@ -41,9 +41,9 @@ header {
     height: 25px;
   }
   .label2 {
-    margin: 16px;
+    /* margin: auto; */
     /* display: block; */
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
     font-size: 1.7rem;
     font-weight: 200;
@@ -56,7 +56,6 @@ header {
     font-weight: 200;
     border-radius: 7px;
     margin: 14px;
-    margin-left: 0px;
     width: 150px;
     /* width: 40px; */
     /* text-align: center;
@@ -70,7 +69,7 @@ header {
     /* border: rgb(246, 221, 113); */
     border-radius: 10px;
     font-size: 1.4rem;
-    margin: 100px;
+    margin: 10px;
     background-color: rgb(19, 214, 25);
     color:rgb(252, 253, 252)
 
@@ -85,9 +84,33 @@ header {
 }
 
 .form {
-  margin-top: 0px;
+  /* display: flex; */
+  margin: 0 auto;
   flex-direction: row;
   }
+/* .flex-img {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.flex-img1 {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: flex-start;
+  margin: 0px 0px;
+}
+.flex-img2 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 1236px;
+  margin-top: 0px ;
+  } */
+  
+    
+
 
   footer {
     display: flex;
@@ -99,32 +122,56 @@ header {
     padding: 25px;
     background-color: #111;
   }
+  @media screen and (max-width: 1024px) {
+    .label1, .label2, .user-rating, .user-input, .submit1 {
+      font-size: 1.5rem;
+      margin: 5px;
+      color: rgb(232, 71, 31);
+      font-weight: 100;
+    } 
+    .title {
+      color: rgb(81, 229, 235);
+    }
+  }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 807px) {
    .title, .label1, .label2, footer {
+    
     color:rgb(246, 221, 113);
+   }
+   .label1, .label2, .user-rating, .user-input, .submit1 {
+    font-size: 1.1rem;
+     margin: auto;
    }
    .submit1 {
     color:rgb(4, 41, 114);
     background-color: rgb(71, 183, 228);
    }
   }
+ 
+   @media screen and (max-width: 621px) {
+    .label1, .label2, .user-rating, .user-input, .submit1 {
+      font-size: .9rem;
+      margin: 0 auto;
+    } 
+  }
+  @media screen and (max-width: 543px){
+    .title {
+      font-size: .7rem;
+      text-align: center;
+
+    } 
+     body {
+      justify-content: center; 
+      
+    }
+
   @media screen and (max-width: 1024px) {
   img {
     width: auto;
-    margin: 20px 8px auto;
+    margin: 5px 3px auto;
+    
   }
-  }
-  @media screen and (max-width: 405px){
-    .title {
-      font-size: 30px;
-      text-align: center;
-    }
-    body {
-      justify-content: center;
-      
-    }
-   
   }
   @media screen and (orientation: landscape) {
     body {
