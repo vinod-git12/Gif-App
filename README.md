@@ -65,9 +65,9 @@ Code Snippet:
 | ---------- | ------------- | ----------- |
 | Dec 17       | Prompt/Wireframe/Priority Matrix/Timeframes         | completed         |
 | Dec 21        | Project Approval        | completed        |
-| Dec 22        | Core Application Structure (HTML, CSS, JS, etc.)         | xxx         |
-| Dec 23 | Pseudocode/Actual         | xxx         |
-| Dec 23 |     MVP        |    xxx     |
+| Dec 22        | Core Application Structure (HTML, CSS, JS, etc.)         | completed         |
+| Dec 23 | Pseudocode/Actual         | completed        |
+| Dec 23 |     MVP        |    completed    |
 | Jan 05 |   Project Presentation      |  xxx         |
 
 
@@ -78,6 +78,6 @@ Code Snippet:
 
 ## Timeframes
 
-![Time Frame](https://i.imgur.com/l6jLcyk.jpg)
+![Time Frame](https://i.imgur.com/osgaDRZ.jpg)
 
 
