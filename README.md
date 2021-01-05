@@ -2,14 +2,14 @@
 
 # Project Overview 
 ## Project Name
-News-App
+Gif-App
 
 ## Project Description
-To Get Business Headlines in the US.
+To Get 
 
 
 ## API and Data Sample
-News-App is powered by [News API](https://newsapi.org/)
+News-App is powered by [News API](https://developers.giphy.com/)
 Code Snippet: 
 ```javascript
  {
@@ -43,7 +43,7 @@ Code Snippet:
 
 ## Post MVP
 
-- Adding a Subfilter category "Author" to be more specified on results.
+- Adding a Subfilter category "Category & Weirdness" to be more specified on results.
 
 ## Project Schedule
 

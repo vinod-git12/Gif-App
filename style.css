@@ -33,7 +33,7 @@ header {
     justify-content: center;
     flex-direction: row; */
     text-align: center;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 200;
     border: rgb(241, 123, 68);
     border-radius: 7px;
@@ -41,7 +41,7 @@ header {
     height: 25px;
   }
   .label2 {
-    margin: 0 auto;
+    margin: 16px;
     /* display: block; */
     justify-content: center;
     text-align: center;
@@ -52,11 +52,12 @@ header {
     /* display: flex;
     justify-content: center;
     text-align: center; */
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 200;
     border-radius: 7px;
-    margin: 0 auto;
-    width: 40px;
+    margin: 14px;
+    margin-left: 0px;
+    width: 150px;
     /* width: 40px; */
     /* text-align: center;
     font-size: 15px;
@@ -66,11 +67,11 @@ header {
   }
 
   .submit1 {
-    border: rgb(246, 221, 113);
-    border-radius: 7px;
+    /* border: rgb(246, 221, 113); */
+    border-radius: 10px;
     font-size: 1.4rem;
-    margin-top: 7px;
-    background-color: rgb(24, 122, 27);
+    margin: 100px;
+    background-color: rgb(19, 214, 25);
     color:rgb(252, 253, 252)
 
   }
