@@ -1,6 +1,8 @@
 # Gif-App
+# Link :  https://vinod-git12.github.io/Gif-App/
 
-# Project Overview 
+# Project Overview
+
 ## Project Name
 Gif-App
 
@@ -44,7 +46,10 @@ Code Snippet:
                     "webp": "https://media1.giphy.com/media/xT5LMIXaGWfynKKZz2/giphy.webp?cid=def9e721og1vqpc2j8le2jfqzrmvelfwo7xi2otkbwma8gni&rid=giphy.webp",
                     "frames": "44",
                     "hash": "5e29af5462c4f19e8ec9582436af0af6"
-                }
+                },
+```
+
+
 ## Wireframes
 [Wireframe Mock-up](https://app.uxpin.com/edit/8769511/#?id_page=135139409)
 
@@ -61,16 +66,7 @@ Code Snippet:
 
 ## Project Schedule
 
-| Day       | Deliverable | Status |
-| ---------- | ------------- | ----------- |
-| Dec 17       | Prompt/Wireframe/Priority Matrix/Timeframes         | completed         |
-| Dec 21        | Project Approval        | completed        |
-| Dec 22        | Core Application Structure (HTML, CSS, JS, etc.)         | completed         |
-| Dec 23 | Pseudocode/Actual         | completed        |
-| Dec 23 |     MVP        |    completed    |
-| Jan 05 |   Project Presentation      |  xxx         |
-
-
+![Project Schedule](https://i.imgur.com/dc6iDzE.jpg)
 
 ## Priority Matrix
 
@@ -79,5 +75,4 @@ Code Snippet:
 ## Timeframes
 
 ![Time Frame](https://i.imgur.com/osgaDRZ.jpg)
-
 
